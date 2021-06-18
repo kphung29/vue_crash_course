@@ -1,5 +1,4 @@
 const app = Vue.createApp({
-  template: '<h1>Hello {{firstName}}</h1>',
   data() {
     return {
       firstName: 'John'
@@ -7,4 +6,4 @@ const app = Vue.createApp({
   }
 })
 
-app.mount('.app')
+app.mount('#app')
